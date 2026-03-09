@@ -1,0 +1,21 @@
+{
+  "name": "gtlite-downloader-gui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "package:win": "tauri build --bundles nsis",
+    "package:win:debug": "tauri build --debug --bundles nsis"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.1.0",
+    "vite": "^5.4.0"
+  }
+}
